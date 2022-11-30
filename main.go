@@ -18,8 +18,8 @@ type Philosopher struct {
 var philosophers = []Philosopher{
 	{name: "    Plato", leftFork: 0, rightFork: 1},
 	{name: " Socrates", leftFork: 1, rightFork: 2},
-	{name: "Aristotle", leftFork: 2, rightFork: 3},
-	{name: "   Pascal", leftFork: 3, rightFork: 0},
+	{name: "Aristotle", leftFork: 2, rightFork: 0},
+	// {name: "   Pascal", leftFork: 3, rightFork: 4},
 	// {name: "Locke", leftFork: 4, rightFork: 0},
 }
 
